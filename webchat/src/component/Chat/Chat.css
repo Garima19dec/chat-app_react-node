@@ -2,8 +2,9 @@
   /* background-color: rgb(31, 29, 29); */
   background-image: linear-gradient(to bottom left,
    /* #33ccff 0%, #ff99cc 100% */
-   #3D3949 100%, #6772A4 0%
+   #3D3949 , #2e3553 
    );
+   backdrop-filter: blur(12px);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -20,7 +21,10 @@
 }
 
 .header {
-  background-color: crimson;
+  /* background-color: crimson; */
+  background-image: linear-gradient(to bottom left,
+   #CE9FFC, #7367f0
+   );
   height: 15%;
   border: 3px solid transparent;
   border-radius: 12px;
@@ -72,7 +76,10 @@
 }
 
 .sendBtn {
-  background-color: crimson;
+  /* background-color: crimson; */
+  background-image: linear-gradient(to bottom left,
+   #CE9FFC, #7367f0
+   );
   color: white;
   border: none;
   border-radius: 12px;
@@ -87,7 +94,7 @@
   transition: all 0.3s;
 }
 .sendBtn:hover {
-  background-color: rgb(156, 13, 42);
+  background-color: #693d93;
 }
 .sendBtn:hover img {
   transform: translateX(8px);

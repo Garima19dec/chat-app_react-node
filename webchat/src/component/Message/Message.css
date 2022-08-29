@@ -13,7 +13,10 @@
 
 .right{
     float: right;
-    background-color: crimson;
+    /* background-color: crimson; */
+    background-image: linear-gradient(to bottom left,
+   #CE9FFC, #7367f0
+   );
     color: white;
      text-align: left; 
 }
