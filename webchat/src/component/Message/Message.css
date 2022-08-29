@@ -1,0 +1,26 @@
+.messageBox{
+    /* background-color: gainsboro; */
+    width: 40%;
+    padding: 1vmax;
+    margin: 1.4vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-size: 1.2vmax;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.right{
+    float: right;
+    background-color: crimson;
+    color: white;
+     text-align: left; 
+}
+
+.left{
+    float: left;
+    text-align: left;
+    background-color: rgb(184, 255, 184);
+    
+}
